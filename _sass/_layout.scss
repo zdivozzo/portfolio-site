@@ -1,0 +1,147 @@
+/**
+ * Site header
+ */
+.site-header {
+    position: relative;
+    width:100%;
+    margin:0 auto;
+    z-index: 50;
+    background-color:#fff;
+}
+
+.site-title {
+  font-size: 28px;
+  line-height: 45px;
+  margin-bottom: 0;
+  font-family: $font-family-one;
+  font-weight: 300;
+  letter-spacing: -.5px;
+  color:$text-color;
+  text-align: center;
+  margin-top:1rem;
+  transition:color .5s ease;
+
+  img {
+    height:30px;
+    display: inline;
+    margin-right:.3rem;
+    vertical-align: sub;
+  }
+
+  span {
+    display: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+    color:$secondary-color;
+    transition:color .5s ease;
+  }
+
+  @media (min-width: 600px) {
+    text-align: left;
+    img {
+      vertical-align: text-top;
+    }
+    span {
+      display: inline;
+    }
+  }
+}
+
+.site-description {
+  text-align: center;
+}
+
+.box-shadow {
+  z-index: 20;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  background-color: #fff;
+  height:60px;
+  box-shadow: 0px 9px 6px -6px #eee;
+
+  @include media-query(600px){
+    height:50px;
+  }
+}
+
+.logo-container {
+  display: block;
+  text-align: center;
+  padding:5.5rem 0 0 0;
+}
+
+.sub-page {
+  margin-top:85px;
+  text-align: center;
+  .site-nav{
+    display: inline-block;
+  }
+}
+
+.paradeiser {
+  .site-title {
+    font-family: $font-family-one;
+    font-size:22px;
+    display: inline;
+    padding-top:8px;
+    span {
+      font-size:17px;
+    }
+  }
+  i.zmdi {
+    color:#444;
+  }
+}
+
+.page-content {
+  padding:3.5rem 0 1rem;
+}
+
+hr {
+  clear:both;
+}
+
+img[alt="Zack Divozzo"] {
+  float: none;
+  width:100%;
+  display: block;
+  border:9px solid #fff;
+  box-shadow:         0px 0px 1px 1px #ccc;
+
+  @media (min-width: 700px) {
+    width:42%;
+    float:right;
+    margin:0 0 2rem 2em;
+  }
+}
+
+.featured-image{
+  width:100%;
+  float:left;
+  text-align: center;
+  a img {
+    width:90%;
+    margin:0 auto;
+    border:1px solid #eee;
+    transition:all .5s ease;
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0px 4px 11px -2px rgba(102,102,102,1);
+    }
+  }
+
+  h3 {
+    margin:1rem 0 2rem 0;
+    font-size:1.2rem;
+  }
+
+  @media (min-width: 700px) {
+    width:33.33333%;
+  }
+}

@@ -1,0 +1,45 @@
+  <div class="wrapper">
+    <div class="intro-screen">
+      <div class="tree-container">
+      <img src="{{ site.baseurl }}/images/tree-top.png" class="tree-top" />
+      <img src="{{ site.baseurl }}/images/tree-trunk.png" class="tree-trunk" />
+    </div>
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <p class="site-description">Front End Web Developer living and making things in Berkley, MI.</p>
+      <nav class="paradeiser">
+        <a class="site-title" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/images/little-tree.png" />
+          <span>{{ site.title }}</span>
+        </a>
+        <a href="{{ site.baseurl }}/about">
+            <icon class="paradeiser_icon_canvas">
+                <i class="zmdi zmdi-coffee"></i>
+            </icon>
+            <span>About</span>
+        </a>
+        <a href="{{ site.baseurl }}/creations">
+            <icon class="paradeiser_icon_canvas">
+                <i class="zmdi zmdi-code-setting"></i>
+            </icon>
+            <span>Creations</span>
+        </a>
+        <a href="https://github.com/zdivozzo">
+            <icon class="paradeiser_icon_canvas">
+              <i class="zmdi zmdi-github"></i>
+            </icon>
+            <span>Github</span>
+        </a>
+    </nav>
+    <div class="box-shadow"></div>
+      <nav class="site-nav">
+        <div class="trigger">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+          <a class="page-link" href="https://github.com/zdivozzo/">Github</a>
+        </div>
+      </nav>
+    </div>
+  </div>

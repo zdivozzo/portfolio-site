@@ -1,0 +1,74 @@
+@keyframes treeTrunk {
+    0% {height:0px;}
+    100% {height:26.5vh}
+}
+
+@keyframes treeTop {
+    0% {height:0px}
+    15% {height:14vh;transform:rotate(2deg)}
+    100% {height:14vh}
+}
+
+.intro-screen {
+  display:flex;
+  align-items: center;
+  justify-content:top;
+  flex-direction: column;
+
+  .tree-container {
+    height:50vh;
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-direction: column;
+  }
+
+  .tree-top {
+    height:0px;
+    z-index: 5;
+    animation-name: treeTop;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  .tree-trunk {
+    height:0px;
+    display: block;
+    margin-top:-1.3rem;
+    animation-name: treeTrunk;
+    animation-delay:1s;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    z-index: 4;
+  }
+  .paradeiser,.box-shadow {
+    @media (min-width: 600px) {
+      display:none;
+    }
+  }
+}
+
+.site-nav {
+  display: none;
+  border:1px solid #ddd;
+  padding:1em;
+  border-radius:2em;
+  text-align: center;
+
+  @media (min-width: 600px) {
+    display: block;
+  }
+
+  .page-link {
+    font-weight: 300;
+    font-size:1em;
+    text-decoration: none;
+    margin:0 .7em;
+    padding:.5em;
+    color:darken($secondary-color,5%);
+
+    &:hover {
+      transition:all .5s ease;
+    }
+  }
+}

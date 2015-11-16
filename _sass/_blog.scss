@@ -1,0 +1,11 @@
+.post-list {
+  .blog-post {
+    margin:2rem 0;
+    padding-bottom:1rem;
+    border-bottom:1px solid #ccc;
+
+    &:last-of-type{
+      border-bottom:none;
+    }
+  }
+}
