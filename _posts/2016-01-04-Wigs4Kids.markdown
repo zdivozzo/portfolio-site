@@ -1,0 +1,18 @@
+---
+layout: normal-page
+title:  "Wigs 4 Kids"
+date:   2016-01-04 09:12:07
+thumbnail: /portfolio-site/images/wigs-thumb.jpg
+categories: portfolio
+---
+#Wigs 4 Kids
+<img src="{{ site.baseurl }}/images/wigs.jpg" class="showcase" />
+
+A website for an awesome local charity built out from a PSD.
+
+###Technologies used:
+* HTML5
+* CSS3 / SASS
+* jQuery
+
+[Visit this site](http://www.wigs4kids.org){:class="portfolio-link-external"}
