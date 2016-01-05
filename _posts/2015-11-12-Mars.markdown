@@ -14,5 +14,3 @@ A React app that I built to explore Mars through the Curiosity rover and NASA's 
 * HTML5
 * CSS3 / SASS
 * React JS
-
-[Visit this site](http://zdivozzo.github.io/curiosity-rover/){:class="portfolio-link-external"}
