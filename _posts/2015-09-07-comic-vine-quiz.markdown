@@ -14,3 +14,5 @@ A really difficult quiz app that I made with the [Comic Vine API](http://api.com
 * Angular JS
 * CSS 3 / SASS
 * HTML 5
+
+[Check out on github](https://github.com/zdivozzo/React-Comic-Quiz){:class="portfolio-link-external"}
