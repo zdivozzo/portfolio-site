@@ -8,7 +8,7 @@ categories: portfolio
 #Curiosity Rover Explorer
 <img src="{{ site.baseurl }}/images/mars.jpg" class="showcase" />
 
-A React app that I built to explore Mars through the Curiosity rover and NASA's API. Lots of accidental selfies and barren wasteland to follow.
+A React app that I built to explore Mars through the Curiosity rover and NASA's API. Lots of accidental selfies and barren wasteland to follow.  The Demo API Key provided by NASA will only allow 30 requests, so if the application stops working that is more than likely the reason.
 
 ###Technologies used:
 * HTML5
@@ -16,4 +16,4 @@ A React app that I built to explore Mars through the Curiosity rover and NASA's 
 * React JS
 * Redux
 
-[Check out on github](http://zdivozzo.github.io/curiosity-rover/){:class="portfolio-link-external"}
+[Check out a demo on Github](http://zdivozzo.github.io/curiosity-rover/){:class="portfolio-link-external"}
