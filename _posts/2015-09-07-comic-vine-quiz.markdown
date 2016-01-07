@@ -11,7 +11,7 @@ categories: portfolio
 A really difficult quiz app that I made with the [Comic Vine API](http://api.comicvine.com), which has over 99,000 character entries.  The 10 question quiz spits out a random character from the API and gives you five choices.
 
 ###Technologies used:
-* Angular JS
+* React
 * CSS 3 / SASS
 * HTML 5
 
