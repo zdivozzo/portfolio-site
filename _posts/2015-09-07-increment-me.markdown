@@ -5,12 +5,12 @@ date:   2015-09-07 11:12:07
 thumbnail: /portfolio-site/images/increment-me-thumb.jpg
 categories: portfolio
 ---
-#Increment Me (Atom Package)
+# Increment Me (Atom Package)
 <img src="{{ site.baseurl }}/images/increment-me.jpg" class="showcase" />
 
 A package that I created for the Atom text editor from Github to insert incrementing numbers after multiple cursors.
 
-###Technologies used:
+### Technologies used:
 * Coffeescript
 
 [Visit Github Page](https://atom.io/packages/increment-me){:class="portfolio-link-external"}
