@@ -9,5 +9,8 @@ github_username:  zdivozzo
 # Build settings
 markdown: kramdown
 
+kramdown:
+  parse_block_html: true
+
 gems:
   - octopress-autoprefixer
