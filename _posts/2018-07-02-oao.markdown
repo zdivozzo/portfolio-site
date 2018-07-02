@@ -1,0 +1,21 @@
+---
+layout: normal-page
+title:  "Online Account Opening - Lake Trust"
+date:   2018-07-02 09:12:07
+thumbnail: bam-thumb.jpg
+categories: portfolio
+---
+Online Account Opening - Lake Trust
+===
+<img src="{{ site.baseurl }}/images/bam.jpg" class="showcase" />
+
+An online account opening application built for new and existing members of Lake Trust Credit Union.
+I built the front end of this application, which interacts with 10+ apis and allows users to add accounts, transfer
+funds and validate themselves by taking a picture of their drivers license.
+
+Technologies used:
+---
+* Angular 6
+* CSS3 / SASS
+
+[Visit this site](https://join.laketrust.org){:class="portfolio-link-external"}

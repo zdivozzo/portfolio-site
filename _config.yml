@@ -2,12 +2,9 @@
 title: Zack DiVozzo
 email: zack@divozzodesigns.com
 description:
-baseurl: "/portfolio-site" # the subpath of your site, e.g. /blog/
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 github_username:  zdivozzo
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - octopress-autoprefixer
