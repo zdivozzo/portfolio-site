@@ -2,15 +2,17 @@
 layout: normal-page
 title:  "Curiosity Rover Explorer"
 date:   2015-11-12 09:12:07
-thumbnail: /portfolio-site/images/mars-thumb.jpg
+thumbnail: mars-thumb.jpg
 categories: portfolio
 ---
-# Curiosity Rover Explorer
+Curiosity Rover Explorer
+===
 <img src="{{ site.baseurl }}/images/mars.jpg" class="showcase" />
 
 A React app that I built to explore Mars through the Curiosity rover and NASA's API. Lots of accidental selfies and barren wasteland to follow.  The Demo API Key provided by NASA will only allow 30 requests, so if the application stops working that is more than likely the reason.
 
-### Technologies used:
+Technologies used:
+---
 * HTML5
 * CSS3 / SASS
 * React JS
