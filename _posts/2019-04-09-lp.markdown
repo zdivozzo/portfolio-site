@@ -1,0 +1,24 @@
+---
+layout: normal-page
+title: "Loan Payments - Lake Trust"
+date: 2019-04-01 09:12:07
+thumbnail: lp-thumb.jpg
+categories: portfolio
+---
+
+# Loan Payments - Lake Trust
+
+<img src="{{ site.baseurl }}/images/lp.jpg" class="showcase" />
+
+A React/Redux app built on top of APIs that integrate with Lake Trust's core system that allows users to pay off their loans using ACH or debit cards. Also integrates with EPX, which handles the payments along with an in-house ACH API.
+
+## Technologies used:
+
+- React
+- Redux
+- Redux Saga
+- Jest
+- Enzyme
+- CSS3 / SASS
+
+[Visit this site](https://payments.laketrust.org){:class="portfolio-link-external"}
