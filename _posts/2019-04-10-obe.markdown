@@ -1,0 +1,24 @@
+---
+layout: normal-page
+title: "Online Banking Enrollment - Lake Trust"
+date: 2019-04-02 09:12:07
+thumbnail: obe-thumb.jpg
+categories: portfolio
+---
+
+# Online Banking Enrollment - Lake Trust
+
+<img src="{{ site.baseurl }}/images/obe.jpg" class="showcase" />
+
+A React/Redux app built on top of APIs that integrate with Lake Trust's online banking system to seamlessly enroll new user's in online banking. Previously, member's would have to call to activate this service.
+
+## Technologies used:
+
+- React
+- Redux
+- Redux Saga
+- Jest
+- Enzyme
+- CSS3 / SASS
+
+[Visit this site](https://laketrust.org/get-online-banking/){:class="portfolio-link-external"}

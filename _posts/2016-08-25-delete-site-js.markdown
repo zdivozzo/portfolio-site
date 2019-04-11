@@ -1,12 +1,13 @@
 ---
 layout: normal-page
-title:  "DeleteSite.js"
-date:   2015-08-25 09:12:07
+title: "DeleteSite.js"
+date: 2018-08-25 09:12:07
 thumbnail: ds-thumb.jpg
 categories: portfolio
 ---
-DeleteSite.js
-===
+
+# DeleteSite.js
+
 <img src="{{ site.baseurl }}/images/deleteSite.png" class="showcase" />
 
 <p>A small javascript file that can be included on any webpage to slowly delete the page, DOM node by DOM node.</p>
@@ -15,10 +16,8 @@ DeleteSite.js
 
 <p>By default it deletes a node every second, but this can be adjusted.</p>
 
-<p>Demo site coming soon</p>
+## Technologies used:
 
-Technologies used:
----
-* Vanilla Javascript
+- Javascript
 
 [Visit on Github](https://github.com/zdivozzo/DeleteSite.js/blob/master/deleteSite.js){:class="portfolio-link-external"}
